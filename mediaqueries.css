@@ -31,12 +31,14 @@
 
   #profile,
   .section-container {
-    height: fit-content;
+    display: block;
     margin: auto;
+    justify-content: center;
   }
 
   .profile-pic {
     height: fit-content;
+    justify-content: center;
   }
 
   .arrow {
@@ -77,8 +79,7 @@
   }
 
   .about-pic {
-    height: 300px;
-    width: 150px;
+    display: block;
   }
 
   footer nav {
@@ -151,6 +152,7 @@
 
   .title {
     font-size: 1rem;
+    text-align: center;
   }
 
   .text-container {
