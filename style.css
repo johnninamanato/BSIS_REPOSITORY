@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,300;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:ital,wght@0,400;0,700;1,300;1,700&display=swap");
 
 * {
   margin: 0;
@@ -6,8 +6,9 @@
 }
 
 body {
-  font-family: "Merriweather", sans-serif;
-  background: gray;
+  font-family: "Lobster", cursive;
+  font-family: "Merriweather", serif;
+  background: rgb(236, 191, 43);
 }
 
 html {
@@ -33,7 +34,7 @@ nav,
 }
 
 nav {
-  margin-top: 3rem;
+  margin-top: 2.5rem;
   justify-content: left;
   align-items: center;
   gap: 2rem;
@@ -47,7 +48,7 @@ nav {
 }
 
 a {
-  color: rgb(231, 17, 135);
+  color: (231, 17, 135);
   text-decoration: none;
   text-decoration-color: black;
 }
@@ -179,7 +180,7 @@ section {
   height: 400px;
   width: 350px;
   border-radius: 1rem;
-  border: 4px solid pink;
+  border: 4px solid black;
 }
 
 .section__text_p {
@@ -187,6 +188,7 @@ section {
 }
 
 .section__text__p1 {
+  font-family: "Lobster", sans-serif;
   font-size: 2.75rem;
   text-align: center;
 }
@@ -206,10 +208,10 @@ section {
 }
 
 .title {
-  margin-bottom: 1rem;
   font-size: 2.5rem;
   text-align: center;
   font-weight: 600;
+  margin-bottom: 2rem;
 }
 
 .name {
@@ -248,7 +250,7 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(0, 255, 213) 0.3rem solid;
+  border: black 0.3rem solid;
 }
 
 .btn-color-1:hover,
@@ -285,16 +287,17 @@ section {
 }
 
 .about-containers {
-  gap: 2rem;
+  gap: 1rem;
   border-radius: 2rem;
   border: gray;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   justify-content: center;
 }
 
 .about-details-container {
   justify-content: center;
   flex-direction: column;
+  text-align: center;
 }
 
 .about-containers,
@@ -306,6 +309,8 @@ section {
   height: 400px;
   width: 350px;
   border-radius: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
 .details-container {
@@ -314,7 +319,7 @@ section {
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 3);
+  border-color: black(163, 163, 3);
 }
 
 .details-container-1 {
@@ -324,8 +329,9 @@ section {
   flex-direction: column;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: pink;
+  border-color: black;
   justify-content: space-around;
+  margin-bottom: 2rem;
 }
 
 .section-container {
@@ -337,7 +343,7 @@ section {
   height: 400px;
   width: 350px;
   border-radius: 1rem;
-  border: 4px solid pink;
+  border: 3.5px solid black;
 }
 
 .arrow {
@@ -356,6 +362,7 @@ section {
   font-weight: 600;
   font-size: 1.5rem;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .experience-details-container {
@@ -375,7 +382,7 @@ section {
 
 article {
   display: flex;
-  border: 1px solid pink;
+  border: 1.5px solid rgb(10, 65, 216);
   border-radius: 1rem;
   width: 10rem;
   justify-content: center;
@@ -397,7 +404,7 @@ article.icon {
 }
 
 .project-img {
-  height: 250px;
+  height: 150px;
   width: 250 px;
   border-radius: 1rem;
   border: 0.1rem solid black;
@@ -411,15 +418,19 @@ article.icon {
 
 .project-btn {
   color: black;
-  border-color: pink;
+  border-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 5rem;
+  width: 8rem;
+  text-align: center;
 }
 
 /* Contact Section */
 
 #contact {
+  margin-top: 6rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -433,8 +444,7 @@ article.icon {
   border: rgb(163, 163, 163) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
-  margin: 2rem;
-  padding: 0.5rem;
+  margin-top: 5rem;
 }
 
 .contact-info-container {

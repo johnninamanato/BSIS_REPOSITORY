@@ -1,21 +1,31 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
+    height: 120vh;
   }
 
   .about-containers {
     flex-wrap: wrap;
   }
+
+  #nav-links,
+  a {
+    font-size: 0.5rem;
+  }
 }
 
 @media screen and (max-width: 1200px) {
   #desktop-nav {
-    display: none;
+    display: flex;
+  }
+
+  ul.nav-links {
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
   }
 
   #hamburger-nav {
-    display: flex;
+    display: none;
   }
 
   #experience,
@@ -25,7 +35,13 @@
 
   #profile,
   .section-container {
-    display: block;
+    height: fit-content;
+    margin: auto;
+  }
+
+  .profile-pic {
+    height: 300px;
+    width: 150px;
   }
 
   .arrow {
@@ -38,13 +54,11 @@
   }
 
   section {
-    margin: 0 6%;
+    margin: 0 2%;
   }
 
   .section__pic-container {
-    width: 275px;
-    height: 275px;
-    margin: 0 auto 2rem;
+    height: fit-content;
   }
 
   .about-containers {
@@ -59,12 +73,17 @@
   }
 
   #profile {
-    height: 83vh;
+    height: 120vh;
     margin-bottom: 0;
   }
 
   article {
     font-size: 1rem;
+  }
+
+  .about-pic {
+    height: 300px;
+    width: 150px;
   }
 
   footer nav {
@@ -75,7 +94,7 @@
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
-    flex-wrap: wrap;
+    display: flex;
   }
 
   .contact-info-container {
@@ -84,7 +103,7 @@
 
   .contact-info-container p,
   .nav-links li a {
-    font-size: 1rem;
+    font-size: 0.5rem;
   }
 
   .experience-sub-title {
@@ -92,7 +111,7 @@
   }
 
   .logo {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .nav-links {
@@ -102,17 +121,19 @@
   }
 
   .section__pic-container {
-    width: auto;
-    height: 46vw;
-    justify-content: center;
+    height: fit-content;
   }
 
   .section__text__p2 {
-    font-size: 1.25rem;
+    font-size: 1rem;
+  }
+
+  .section__text__p1 {
+    font-size: 1.5rem;
   }
 
   .title {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   .text-container {
