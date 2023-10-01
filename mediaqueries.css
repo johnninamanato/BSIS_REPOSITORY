@@ -40,8 +40,7 @@
   }
 
   .profile-pic {
-    height: 300px;
-    width: 150px;
+    height: fit-content;
   }
 
   .arrow {
@@ -59,6 +58,7 @@
 
   .section__pic-container {
     height: fit-content;
+    margin: 2rem;
   }
 
   .about-containers {
