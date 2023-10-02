@@ -32,15 +32,12 @@
   #profile,
   .section-container {
     display: block;
-    margin: auto;
-    justify-content: center;
   }
 
-  .profile-pic {
-    height: fit-content;
-    justify-content: center;
+  .profile-pic{
+    display: block;
   }
-
+  }
   .arrow {
     display: none;
   }
