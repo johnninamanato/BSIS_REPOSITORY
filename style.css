@@ -9,6 +9,8 @@ body {
   font-family: "Lobster", cursive;
   font-family: "Merriweather", serif;
   background-image: url("https://i.pinimg.com/564x/9c/31/f6/9c31f69d40a1c1a10fa8c91b3cf996ef.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 html {
