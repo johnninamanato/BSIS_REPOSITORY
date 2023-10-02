@@ -34,30 +34,29 @@
     display: block;
   }
 
-  .profile-pic{
+  .profile-pic {
     display: block;
   }
-  }
-  .arrow {
-    display: none;
-  }
+}
+.arrow {
+  display: none;
+}
 
-  section,
-  .section-container {
-    height: fit-content;
-  }
+section,
+.section-container {
+  height: fit-content;
+}
 
-  section {
-    margin: 0 2%;
-  }
+section {
+  margin: 0 2%;
+}
 
-  .section__pic-container {
-    height: fit-content;
-  }
+.section__pic-container {
+  height: fit-content;
+}
 
-  .about-containers {
-    margin-top: 0;
-  }
+.about-containers {
+  margin-top: 0;
 }
 
 @media screen and (max-width: 600px) {
