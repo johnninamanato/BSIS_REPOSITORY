@@ -32,8 +32,13 @@
 
   #profile,
   .section-container {
-    margin: auto 0.5rem;
+    margin: auto 0;
     display: block;
+  }
+
+  #project,
+  .profile-pic {
+    height: fit-content;
   }
 
   .profile-pic {
@@ -51,7 +56,7 @@ section,
 }
 
 section {
-  margin: 0 2%;
+  margin: 0;
 }
 
 .section__pic-container {
@@ -59,7 +64,13 @@ section {
 }
 
 .about-containers {
-  margin-top: 0;
+  margin: auto 0;
+}
+
+#about,
+.details-container-1 {
+  display: block;
+  margin: auto 0;
 }
 
 @media screen and (max-width: 600px) {
