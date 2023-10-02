@@ -123,6 +123,7 @@ section {
 
   #projects,
   .details-container {
+    margin: auto 0;
     justify-content: center;
   }
 
@@ -134,13 +135,13 @@ section {
 
   #profile,
   .details-container-1 {
-    margin: auto 0 2rem;
+    margin: auto 0;
   }
 
   #experience,
   .details-container {
-    justify-content: center;
     margin: auto 0;
+    display: block;
   }
 
   .details-container {
