@@ -131,6 +131,11 @@ section {
     justify-content: center;
   }
 
+  #profile,
+  .details-container-1 {
+    margin: auto 0;
+  }
+
   #experience,
   .details-container {
     justify-content: center;
