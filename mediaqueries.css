@@ -20,6 +20,7 @@
   }
 
   #hamburger-nav {
+    justify-content: top right;
     display: flex;
   }
 
@@ -31,6 +32,7 @@
 
   #profile,
   .section-container {
+    margin: auto 1.5rem;
     display: block;
   }
 
@@ -45,6 +47,7 @@
 section,
 .section-container {
   height: fit-content;
+  margin: auto 1.5rem;
 }
 
 section {
