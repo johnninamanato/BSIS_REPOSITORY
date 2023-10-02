@@ -128,13 +128,13 @@ section {
 
   #projects,
   .details-container-1 {
-    margin: auto 1rem;
+    margin: auto 3rem;
     justify-content: center;
   }
 
   #profile,
   .details-container-1 {
-    margin: auto 0;
+    margin: auto 0 2rem;
   }
 
   #experience,
