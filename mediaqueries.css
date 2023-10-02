@@ -134,6 +134,7 @@ section {
   #experience,
   .details-container {
     justify-content: center;
+    margin: auto 0;
   }
 
   .details-container {
