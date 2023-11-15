@@ -70,6 +70,7 @@ a:hover {
   align-items: right;
   margin-top: 1rem;
   margin-left: 2rem;
+  margin-right: 20rem;
 }
 
 .logo:hover {
@@ -343,8 +344,8 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: black;
   background-color: bisque;
-  justify-content: space-around;
-  margin-bottom: 2rem;
+  justify-content: space-evenly;
+  margin-block-end: auto;
 }
 
 .section-container {
@@ -352,9 +353,10 @@ section {
   height: 75%;
 }
 
-.section__pic-container {
+.section__pic-container-1 {
   height: 400px;
   width: 350px;
+  align-items: center;
 }
 
 .arrow {

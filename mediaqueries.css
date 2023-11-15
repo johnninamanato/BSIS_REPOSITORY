@@ -16,7 +16,6 @@
 
   #hamburger-nav {
     display: flex;
-    align-content: top right;
   }
 
   #experience,
