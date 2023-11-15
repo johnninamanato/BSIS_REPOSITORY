@@ -3,11 +3,6 @@
     height: 120vh;
     margin-bottom: 6rem;
   }
-
-  .about-containers {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -34,15 +29,12 @@
   .section-container {
     margin: auto 0;
     display: block;
-  }
-
-  #project,
-  .profile-pic {
-    height: fit-content;
+    align-items: center;
   }
 
   .profile-pic {
-    display: block;
+    display: flex;
+    align-items: center;
   }
 }
 .arrow {
@@ -139,6 +131,21 @@ section {
   }
 
   #projects,
+  .details-container-1 {
+    margin: auto 3rem;
+    margin-bottom: auto;
+    justify-content: center;
+  }
+
+  #profile,
+  #profile-pic,
+  .section__pic-container {
+    margin: auto 3rem;
+    margin-bottom: auto;
+    justify-content: center;
+  }
+
+  #about,
   .details-container-1 {
     margin: auto 3rem;
     margin-bottom: auto;
