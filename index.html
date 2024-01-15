@@ -3,280 +3,220 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Johnnina Manato Portfolio</title>
+    <title>Manato Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
-  </head> 
+ 
+  </head>
   <body>
-    <nav id="desktop-nav">
-      <div class="logo">
-        <img src="./assets/logo.png" alt="Logo Picture" />
-      </div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
+    <div id="header">
+      <div class="container">
+        <nav id="desktop-nav">
+          <img src="./assets/logo.png" class="logo">
+          <div>
+            <ul class="nav-links">
+              <li><a href="#about" onclick="toggleMenu()">About</a></li>
+              <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+              <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+              <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <nav id="hamburger-nav">
+          <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="menu-links">
+              <li><a href="#about" onclick="toggleMenu()">About</a></li>
+              <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+              <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+              <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+          </div>
+        </nav>
 
-    <nav id="hamburger-nav">
-      <div class="logo">
-      </div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
+        <div class="header-text">
+            <p>Hi I'm</p>
+            <h1>Johnnina Liliana </br> D. Manato</h1>
+            <p>3rd Year Information Systems Student</p>
         </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
-      </div>
-    </nav>
-    <section id="profile">
-      <div class="section__pic-container">
-        <img
-          src="./assets/profile_1.jpg"
-          alt="Profile Picture"
-          class="profile-pic"
-        />
-      </div>
 
-      <div class="section__text">
-        <p class="section__text__p1">Hello! I am</p>
-        <p class="title">Johnnina Liliana Manato</p>
-        <p class="section__text__p2">Information Systems Student</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/Manato_Resume.jpg')"
+            onclick="window.open('./assets/cv_mnato.pdf')"
           >
             Download CV
+          </button>
+          <button
+            class="btn btn-color-1"
+            onclick="location.href = './#contact'"
+          >
+            Contact Info
           </button>
         </div>
         <div id="socials-container">
           <img
-            src="./assets/gmail.png"
-            alt="My Gmail Profile"
+            src="./assets/linkedin new.png"
+            alt="My Linkedin Profile"
             class="icon"
-            onclick="location.href='https://myaccount.google.com/'"
+            onclick="location.href='https://linkedin.com'"
           />
           <img
             src="./assets/newgithub.png"
             alt="My Github Profile"
             class="icon"
-            onclick="location.href='https://github.com/johnninamanato'"
-          />
-          <img
-            src="./assets/facebook.png"
-            alt="My Facebook Profile"
-            class="icon"
-            onclick="location.href='https://www.facebook.com/johnninaamanato'"
-          
+            onclick="location.href='https://github.com'"
           />
         </div>
       </div>
-    </section>
-    <section id="about">
-      <div class="section-container">
-        <div class="section__pic-container-1">
-          <img
-            src="./assets/profile_2.jpg"
-            alt="About Picture"
-            class="about-pic"
-          />
-        </div>
-        <div class="about-details-container">
-          <p class="section__text__p1">Get to Know Me</p>
-          <div class="details-container-1">
-          <p>A third year student currently taking up Bachelor of Science in Information Systems. I am capabale of learning and it pushes me to go beond my comfort zone.</p>
-        </div>
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./assets/experience new.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>Aspiring Developer</p>
-            </div>
-            <div class="details-container">
-              <img
-                src="./assets/education new.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>
-                Bachelor of Science in Information Systems
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
-    </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Aspiring Developer</h2>
-            <div class="details-container">
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/MicrosoftTeams-image.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/MicrosoftTeams-image.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>CSS</h3>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/MicrosoftTeams-image.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>C</h3>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/MicrosoftTeams-image.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>C++</h3>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/MicrosoftTeams-image.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Python</h3>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/MicrosoftTeams-image.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Canva</h3>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/MicrosoftTeams-image.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Adobe Photoshop</h3>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/MicrosoftTeams-image.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Adobe Illustrator</h3>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
-    </section>
-    <section id="projects">
-      <p class="section__text__p1">Browse My</p>
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container-1">
-            <img src="./assets/project1.3.png"
-              alt="Project 1"
-              class="project-img"/>
-          <h3 class="section__text__p2">Mobile User Interface </h1>
-          </div>
+    </div>
 
-          <div class="details-container-1">
-            <img src="./assets/project3.png" 
-              alt="Project 3"
-              class="project-img" />
-              <h3 class="section__text__p2">Logo Making</h3>
-          </div>
-          
-          <div class="details-container-1">
-            <img src="./assets/MANATO_ACT4.jpg" 
-              alt="Project 2"
-              class="project-img" />
-            <h3 class="section__text__p2">Photo Restoration</h3>
-          </div>          
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./assets/ninaaa.jpg"/>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub">About Me</h1>
+                    <p>I'm currently taking up Bachelor of Science in Information Systems at Technological <br> University of the Philippines - Manila. I am 21 years old and aspires to be a systems <br> analyst in the future. I am teachable and open to acquire new learnings about this field.<br> </p>
+                    <div class="about-details-container">
+                      <div class="details-container">
+                        <img src="./assets/education new.png" alt="education icon" class="icon" />
+                        <h1>EDUCATION</h1>
+                        <p>Technological University of <br> the Philippines - Manila <br> 2021 - present</p>
+                      </div>
+            
+                      <div class="details-container">
+                        <img src="./assets/education new.png" alt="education icon" class="icon" />
+                        <h1>EXPERIENCE</h1>
+                        <p>Information Systems Student & <br> Aspiring Front-End Developer</p>
+                      </div>
+                  </div>
+                </div>
+            </div>
         </div>
-        <div class="about-containers">
-          <div class="details-container-1">
-            <img src="./assets/project 4.png"
-            alt="Project 4"
-            class="project-img">
-            <h3 class="section__text__p2">Movie Booking System</h3>
-          </div>
-        </div>
-      <div class="about-containers">
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2 project-btn"
-            onclick="location.href='https://github.com/johnninamanato/movieticketing.git'"
-          >
-          Project Four on Github
-          </button>
-        </div>
+      </section>
+
+      <section id="experience">
+      <h2>Explore My</h2>
+      <h1 class="sub">Experience</h1>
+
+      <div class="exp-container">
+        <div class="experience-detail-container">
+          <img src="./assets/check.png"
+          alt="experience icon"
+          class="icon" />
+          <h3>HTML</h3>
+         </div>
+  
+         
+        <div class="experience-detail-container">
+          <img src="./assets/check.png"
+          alt="experience icon"
+          class="icon" />
+          <h3>C</h3>
+         </div>
+  
+                
+        <div class="experience-detail-container">
+          <img src="./assets/check.png"
+          alt="experience icon"
+          class="icon" />
+          <h3>C++</h3>
+         </div>
       </div>
+
+      <div class="exp-container">
+        <div class="experience-detail-container">
+          <img src="./assets/check.png"
+          alt="experience icon"
+          class="icon" />
+          <h3>Adobe Photoshop</h3>
+         </div>
+  
+  
+         <div class="experience-detail-container">
+          <img src="./assets/check.png"
+          alt="experience icon"
+          class="icon" />
+          <h3>Adobe Illustrator</h3>
+         </div>
+  
+         <div class="experience-detail-container">
+          <img src="./assets/check.png"
+          alt="experience icon"
+          class="icon" />
+          <h3>Adobe Animation</h3>
+         </div> 
+      </div>
+
+      <div class="exp-container">
+        <div class="experience-detail-container">
+          <img src="./assets/check.png"
+          alt="experience icon"
+          class="icon" />
+          <h3>CSS</h3>
+         </div>
+  
+         <div class="experience-detail-container">
+          <img src="./assets/check.png"
+          alt="experience icon"
+          class="icon" />
+          <h3>Canva</h3>
+         </div>
+  
+         <div class="experience-detail-container">
+          <img src="./assets/check.png"
+          alt="experience icon"
+          class="icon" />
+          <h3>Python</h3>
+         </div>
+      </div>
+
+    </section>
+
+
+    <section id="projects"> 
+
+      <h1 class="sub">Projects</h1>
+      <p>As an IS student, we are provided with a lot of learnings and insights with practices that are helpful in our field. <br> Here are some works I have accomplished.</p>
+      <div class="wrapper">
+        <div class="image">
+          <img src="./assets/project5.jpg">
+          <div class="content">
+            <h1>Mobile Application Prototype </h1>
+            <p></p>
+          </div>
+        </div>
+
+
+        <div class="image">
+          <img src="./assets/project3.png">
+          <div class="content">
+            <h1>Logo Making </h1>
+            <p></p>
+          </div>
+        </div>
+
+        <div class="image">
+          <img src="./assets/project 4.png">
+          <div class="content">
+            <h1>Movie Booking System</h1>
+            <p></p>
+          </div>
+        </div>
       </div>
     </section>
+
     <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
+      <h2>Get In Touch</h2>
+      <h1 class="sub">Contact Me</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
           <img
@@ -284,7 +224,7 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:johnninaliliana.manato@tup.edu.ph">johnninaliliana.manato@tup.edu.ph</a></p>
+          <p><a href="mailto:johnninaliliana.manato@gmail.com">johnninaliliana.manato@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
           <img
@@ -295,7 +235,9 @@
           <p><a href="https://www.facebook.com">m.me/johnninaamanato/</a></p>
         </div>
       </div>
+      </div>
     </section>
+
     <footer>
       <nav>
         <div class="nav-links-container">

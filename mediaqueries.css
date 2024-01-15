@@ -3,11 +3,15 @@
     height: 120vh;
     margin-bottom: 6rem;
   }
+
+  #header {
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 1200px) {
   #desktop-nav {
-    display: flex;
+    align-items: left;
   }
 
   ul.nav-links {
@@ -16,6 +20,7 @@
 
   #hamburger-nav {
     display: flex;
+    justify-content: right;
   }
 
   #experience,
@@ -31,9 +36,8 @@
     align-items: center;
   }
 
-  .profile-pic {
-    display: flex;
-    align-items: center;
+  .logo {
+    justify-content: left;
   }
 }
 .arrow {
@@ -54,14 +58,12 @@ section {
   height: fit-content;
 }
 
-.about-containers {
-  margin-bottom: auto 0;
+#about .container {
+  display: flex;
 }
 
-#about,
-.details-container-1 {
-  display: block;
-  margin: auto 0;
+#about h1 {
+  font-size: 20px;
 }
 
 @media screen and (max-width: 600px) {
@@ -75,10 +77,6 @@ section {
     margin-bottom: 0;
   }
 
-  article {
-    font-size: 1rem;
-  }
-
   .about-pic {
     display: block;
   }
@@ -86,12 +84,6 @@ section {
   footer nav {
     height: fit-content;
     margin-bottom: 2rem;
-  }
-
-  .about-containers,
-  .contact-info-upper-container,
-  .btn-container {
-    flex-wrap: wrap;
   }
 
   .contact-info-container {
@@ -103,11 +95,6 @@ section {
     font-size: 0.5rem;
   }
 
-  .experience-sub-title {
-    font-size: 1.25rem;
-    text-align: center;
-  }
-
   .nav-links {
     flex-direction: column;
     gap: 0.5rem;
@@ -117,27 +104,6 @@ section {
   #contact,
   .section__text__p1 {
     margin-top: 3rem;
-  }
-
-  #projects,
-  .details-container {
-    margin: auto 0;
-    justify-content: center;
-  }
-
-  #projects,
-  .details-container-1 {
-    margin: auto 3rem;
-    margin-bottom: auto;
-    justify-content: center;
-  }
-
-  #profile,
-  #profile-pic,
-  .section__pic-container {
-    margin: auto 3rem;
-    margin-bottom: auto;
-    justify-content: center;
   }
 
   #about,
@@ -160,11 +126,6 @@ section {
 
   .details-container {
     margin: auto 3rem;
-    justify-content: center;
-  }
-
-  .section__pic-container {
-    height: fit-content;
     justify-content: center;
   }
 
