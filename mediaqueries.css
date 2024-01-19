@@ -10,6 +10,26 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .header-text,
+  h1 {
+    font-size: large;
+    text-align: center;
+  }
+
+  .header-text,
+  p {
+    font-size: small;
+  }
+
+  .sub,
+  h1 {
+    font-size: xx-large;
+  }
+
+  h2 {
+    font-size: medium;
+  }
+
   #desktop-nav {
     align-items: left;
   }
@@ -23,12 +43,6 @@
     justify-content: right;
   }
 
-  #experience,
-  .experience-details-container {
-    margin-top: 2rem;
-    justify-content: center;
-  }
-
   #profile,
   .section-container {
     margin: auto 0;
@@ -38,10 +52,23 @@
 
   .logo {
     justify-content: left;
+    width: 3rem;
   }
 }
 .arrow {
   display: none;
+}
+
+#about {
+  justify-content: center;
+}
+
+.container {
+  justify-content: center;
+}
+.about-col-1 {
+  width: 15rem;
+  display: block;
 }
 
 section,
@@ -49,21 +76,13 @@ section,
   height: fit-content;
   margin: auto 0;
 }
-
 section {
   margin: 0;
 }
 
-.section__pic-container {
-  height: fit-content;
-}
-
-#about .container {
+.wrapper {
   display: flex;
-}
-
-#about h1 {
-  font-size: 20px;
+  flex-direction: row;
 }
 
 @media screen and (max-width: 600px) {
@@ -106,27 +125,9 @@ section {
     margin-top: 3rem;
   }
 
-  #about,
-  .details-container-1 {
-    margin: auto 3rem;
-    margin-bottom: auto;
-    justify-content: center;
-  }
-
   #profile,
   .details-container-1 {
     margin: auto 0;
-  }
-
-  #experience,
-  .details-container {
-    margin: auto 0;
-    display: block;
-  }
-
-  .details-container {
-    margin: auto 3rem;
-    justify-content: center;
   }
 
   .section__text__p2 {
